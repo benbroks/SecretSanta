@@ -11,10 +11,6 @@ import javax.activation.*;
 import java.util.Random;
 
 public class SecretSanta {
-	//before using a specific gmail account you need to enable two step verification for your account
-	//then, create an "app password" via https://support.google.com/accounts/answer/185833?hl=en
-	//follow the instructions to generate an app password and paste it in this code
-	
 	public static String from = "benjamin.james.brooks@gmail.com";
 	public static String appPassword = "crvnxbmfnjmntylo";
 	public static String inputFile = "input.csv";
