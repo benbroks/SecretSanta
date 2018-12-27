@@ -2,7 +2,7 @@
 "Secret Santa" naturally reduces into a graph problem - each participant becomes a node and each gift exchange results in a directed edge. Each participant has exactly one incoming and outgoing edge. The simple (boring) set of pairings is a hamiltonian cycle (a circle of size n), but we can make something more fun! Instead, I made the pairing generation truly random; the only "outlawed" relationship is a self-loop (no one wants to give themselves a present). This way we can have as many n/2 cycles ([n-1]/2 if n is odd) within our produced graph. 
 
 ##Setup
-Setting up JavaMail was the most complex portion of this project. Hopefully, this instruction set will make the api a little more understandable.
+Setting up JavaMail was the most complex portion of this project. Hopefully, this instruction set will make the api a little more understandable. This [cumulative tutorial] (https://www.geeksforgeeks.org/send-email-using-java-program/), [this](https://stackoverflow.com/questions/2965251/javamail-with-gmail-535-5-7-1-username-and-password-not-accepted/2965433) and [this](https://stackoverflow.com/questions/26548059/sending-email-with-ssl-using-javax-mail) Stack Overflow articles were helpful.
 - First, download the [JavaMail API](https://javaee.github.io/javamail/) (it's labelled javax.mail.jar on the download page) and name it `mail.jar`. 
 - Next, download the [Java Activation Framework] (https://www.oracle.com/technetwork/java/javase/downloads/index-135046.html#download) and name it `activation.jar`.
 - Make sure you add the above two jars to your build path!
