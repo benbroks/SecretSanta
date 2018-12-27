@@ -12,7 +12,7 @@ import java.util.Random;
 
 public class SecretSanta {
 	public static String from = "benjamin.james.brooks@gmail.com";
-	public static String appPassword = "crvnxbmfnjmntylo";
+	public static String appPassword = "you_thought_lmao";
 	public static String inputFile = "input.csv";
 	private static Vector<Person> people;
 	
